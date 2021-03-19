@@ -1,0 +1,14 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'reader/style.css'%}">
+
+<div class="sidebar">
+    <a href="{% url 'Home' %}">Home</a>
+    <a href="{% url 'Home' %}?search=top">Top News</a>
+
+    <a href="{% url 'Home' %}?search=Business">Business</a>
+    <a href="{% url 'Home' %}?search=Technology">Technology</a>
+    <a href="{% url 'Home' %}?search=Entertainment">Entertainment</a>
+    <a href="{% url 'Home' %}?search=Sports">Sports</a>
+    <a href="{% url 'Home' %}?search=Science">Science</a>
+    <a href="{% url 'Home' %}?search=Health">Health</a>
+</div>
