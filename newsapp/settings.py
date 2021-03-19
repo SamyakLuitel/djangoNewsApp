@@ -25,7 +25,7 @@ SECRET_KEY = 'ac1lweb(0h5klh=wcbl6ic*6xrb+jxo$sukjad4#&)j!ao*2np'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['samyaknews.herokuapp.com']
 
 
 # Application definition
